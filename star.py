@@ -12,16 +12,16 @@
 #     print("x")
 # ----------------------------
 
-# # n= int(input("Nhap n :"))
-# # if n%2 ==0:
-# #     a= int(n/2)
-# #     for i in range (1):
-# #         print("x * " *a, end="")
-# # else:
-# #     b=int((n+1)/2)
-# #     for i in range(1):
-# #         print("x * " *b, end="")
-# #         print("x")
+n= int(input("Nhap n :"))
+if n%2 ==0:
+    a= int(n/2)
+    for i in range (1):
+        print("x * " *a, end="")
+else:
+    b=int((n+1)/2)
+    for i in range(1):
+        print("x * " *b, end="")
+        print("x")
 # ------------------------------
 
 # for i in range(3):
